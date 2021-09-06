@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anude\\source\\repos\\Helloworld\\Helloworld.csproj",
+      "projectUniqueName": "C:\\Users\\anude\\Source\\Repos\\AnudeepGunukula\\DotNet\\Helloworld\\Helloworld.csproj",
       "projectName": "Helloworld",
-      "projectPath": "C:\\Users\\anude\\source\\repos\\Helloworld\\Helloworld.csproj",
+      "projectPath": "C:\\Users\\anude\\Source\\Repos\\AnudeepGunukula\\DotNet\\Helloworld\\Helloworld.csproj",
       "packagesPath": "C:\\Users\\anude\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anude\\source\\repos\\Helloworld\\obj\\",
+      "outputPath": "C:\\Users\\anude\\Source\\Repos\\AnudeepGunukula\\DotNet\\Helloworld\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anude\\AppData\\Roaming\\NuGet\\NuGet.Config",

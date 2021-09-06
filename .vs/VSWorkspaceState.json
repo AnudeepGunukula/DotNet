@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Helloworld"
   ],
-  "SelectedNode": "\\Csharp_labs",
+  "SelectedNode": "\\Helloworld\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
