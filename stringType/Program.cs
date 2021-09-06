@@ -19,7 +19,7 @@ namespace stringType
 
             //verbatime Literal
 
-            string path1 = @"C:\Users\Anudeep\Desktop\Program.cs";            // treat escape sequence as regular printable characters
+            string path1 = @"C:\Users\Anudeep\Desktop\Program.cs";            // treat escape sequence as regular printable characters and more readable
 
             Console.WriteLine(path1);
 
