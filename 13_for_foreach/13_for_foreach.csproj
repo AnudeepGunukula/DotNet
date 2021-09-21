@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1676E7D7-1EA0-43ED-B55F-FEE7EBC27E36}</ProjectGuid>
+    <ProjectGuid>{449D72E9-8956-46B4-946D-64EBB09142DB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>for_and_foreach</RootNamespace>
-    <AssemblyName>for_and_foreach</AssemblyName>
+    <RootNamespace>_13_for_foreach</RootNamespace>
+    <AssemblyName>13_for_foreach</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
