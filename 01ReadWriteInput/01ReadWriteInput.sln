@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12dowhileloop", "..\12dowhi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_for_foreach", "..\13_for_foreach\13_for_foreach.csproj", "{449D72E9-8956-46B4-946D-64EBB09142DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14Methods", "..\14Methods\14Methods.csproj", "{37EA2519-1B8F-46D4-8F7A-E57C094730CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15Namespaces", "..\15Namespaces\15Namespaces.csproj", "{4F2A1677-3802-46D7-89A9-21BD3CF1272C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{449D72E9-8956-46B4-946D-64EBB09142DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{449D72E9-8956-46B4-946D-64EBB09142DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{449D72E9-8956-46B4-946D-64EBB09142DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37EA2519-1B8F-46D4-8F7A-E57C094730CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37EA2519-1B8F-46D4-8F7A-E57C094730CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37EA2519-1B8F-46D4-8F7A-E57C094730CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37EA2519-1B8F-46D4-8F7A-E57C094730CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F2A1677-3802-46D7-89A9-21BD3CF1272C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2A1677-3802-46D7-89A9-21BD3CF1272C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2A1677-3802-46D7-89A9-21BD3CF1272C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2A1677-3802-46D7-89A9-21BD3CF1272C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
