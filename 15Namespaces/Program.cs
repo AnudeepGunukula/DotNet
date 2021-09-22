@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ProjectA.TeamA;
-using ProjectA.TeamB;
 using Aclass = ProjectA.TeamA.TeamAclass;      // aliasing the ambiquity problem with this
 using Bclass = ProjectA.TeamB.TeamAclass;
 
