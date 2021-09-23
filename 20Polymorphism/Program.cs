@@ -14,7 +14,7 @@ namespace _20Polymorphism
         public string FirstName;
         public string LastName;
 
-        public void PrintFullName()
+        public virtual void PrintFullName()
         {
             Console.WriteLine($"fullname is : {FirstName}  {LastName}");
         }
@@ -23,18 +23,29 @@ namespace _20Polymorphism
 
     class PartTimeEmployee : Employee
     {
+
+        public override void PrintFullName()
+        {
+            Console.WriteLine($"fullname is : {FirstName} {LastName} - parttime");
+        }
     }
 
 
     class FullTimeEmployee : Employee
     {
-
+        public override void PrintFullName()
+        {
+            Console.WriteLine($"fullname is : {FirstName} {LastName} - Fulltime");
+        }
 
     }
 
     class TemporaryEmployee : Employee
     {
-
+        public override void PrintFullName()
+        {
+            Console.WriteLine($"fullname is : {FirstName} {LastName} - temporary");
+        }
     }
 
     class Program
@@ -48,6 +59,8 @@ namespace _20Polymorphism
             employees[2] = new FullTimeEmployee();
             employees[3] = new TemporaryEmployee();
 
+
+            // polymorphism, enables to invoke derived class methods through base class reference variable at runtime
 
             foreach (Employee e in employees)
             {
