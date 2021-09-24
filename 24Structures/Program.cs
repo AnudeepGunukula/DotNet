@@ -15,13 +15,13 @@ namespace _24Structures
 
             Customer c2 = new Customer();              // init with Prop
             c2.Id = 2;
-            c2.Name = "Arya";
+            c2.Name = "Arya stark"; 
             c2.PrintDetails();
 
             Customer c3 = new Customer                //   init with obj initializer syntax
             {
                 Id = 3,
-                Name = "Rob"
+                Name = "Rob stark"
             };
 
             c3.PrintDetails();
