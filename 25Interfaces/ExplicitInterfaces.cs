@@ -22,7 +22,7 @@ namespace _25Interfaces
 
     class ExplicitInterfaces : I1, I2
     {
-        void I1.InterfaceMethod()
+        void I1.InterfaceMethod()               // explicit interface methods are not having Access modifiers
         {
             Console.WriteLine("interface I1 implemented");
         }
