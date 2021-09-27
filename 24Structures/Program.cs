@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace _24Structures
 {
-    class Program
-    {
+    class Program                                 //  classes are reference types and the objects are stored in heap
+    {                                             // we can use sealed keyword to prevent inheritence for a class
         static void Main(string[] args)
         {
             Customer c1 = new Customer(1, "mark");     // init with constructor
@@ -15,7 +15,7 @@ namespace _24Structures
 
             Customer c2 = new Customer();              // init with Prop
             c2.Id = 2;
-            c2.Name = "Arya stark"; 
+            c2.Name = "Arya stark";
             c2.PrintDetails();
 
             Customer c3 = new Customer                //   init with obj initializer syntax
@@ -32,7 +32,8 @@ namespace _24Structures
 
 
 
-    struct Customer   // structs are same as class but use some less memory
+    struct Customer   // structs are same as class but use some less memory and structs are value types
+                      // structs wont suport inheritence they are sealed types
     {
         private int id;
         private string name;
