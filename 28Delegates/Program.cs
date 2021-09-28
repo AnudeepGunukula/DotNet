@@ -10,6 +10,7 @@ namespace _28Delegates
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("delegates");
         }
     }
 }
