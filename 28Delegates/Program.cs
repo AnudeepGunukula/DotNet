@@ -1,16 +1,22 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _28Delegates
 {
     class Program
     {
+        public delegate void HelloDelegate(string msg);
+
+        public static void Hello(string strMessage)
+        {
+            Console.WriteLine(strMessage);
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("delegates");
+            HelloDelegate handler = Hello;
+
+            handler("Hello delegates");
+            //delegate is a type safe function pointer
+
         }
     }
 }
