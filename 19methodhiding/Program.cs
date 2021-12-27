@@ -25,7 +25,7 @@ namespace _19methodhiding
 
             pte.PrintFullName();
              
-           ((Employee)pte).PrintFullName();             // converting derived class instance to base class instance will get his methods even if hided by derived class
+           ((Employee)pte).PrintFullName();             // converting derived class instance to base class instance, will get base methods only
 
             Employee emp;
 
