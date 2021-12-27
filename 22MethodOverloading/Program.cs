@@ -11,7 +11,7 @@ namespace _22MethodOverloading
         static void Main(string[] args)
         {
 
-            // type,number and order of parameters matters
+            // type,number,order and kind of parameters matters
 
             Add(1, 2);
             Add(2, 3.4f);
